@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mblsjonvarp"
+       name="Mbl.is Sjonvarp"
+       version="1.0.0"
+       provider-name="Haukur Rosinkranz (HauxiR)">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.HTMLParser" version="2.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Icelandic news and entertainment from MBL.is</summary>
+        <description>Mbl.is is the most viewed news website in iceland. It features icelandic news reports and entertainment.</description>
+    </extension>
+</addon>
