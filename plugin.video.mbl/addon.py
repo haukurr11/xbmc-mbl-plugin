@@ -48,7 +48,7 @@ def mobilize_link(link):
 def videolink(name,link,thumbnail):
 	try:
 		videolink = get_html(mobilepage+link)
-		direct_vlink=re.search('",file:"(.+?)"},',videolink).group(1)
+		direct_vlink=re.search('file:"(.+?)"',videolink).group(1)
 		addLink(name,direct_vlink,thumbnail)
 	except:
 		pass
