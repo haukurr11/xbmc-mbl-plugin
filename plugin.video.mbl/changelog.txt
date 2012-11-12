@@ -1,0 +1,2 @@
+[B]1.0.1[/B]
+- fixed: little fix for a small change in the mbl.is markup

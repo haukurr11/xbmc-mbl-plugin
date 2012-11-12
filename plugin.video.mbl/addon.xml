@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.mblsjonvarp"
        name="Mbl.is Sjonvarp"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Haukur Rosinkranz (HauxiR)">
     <requires>
         <import addon="xbmc.python" version="1.0"/>
